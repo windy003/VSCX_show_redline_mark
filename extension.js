@@ -18,13 +18,7 @@ function activate(context) {
         gutterIconSize: 'contain',
         // 在滚动条区域也显示标记
         overviewRulerColor: 'rgba(255, 0, 0, 0.8)',
-        overviewRulerLane: vscode.OverviewRulerLane.Left,
-        // 添加淡红色背景，让效果更明显
-        backgroundColor: 'rgba(255, 0, 0, 0.08)',
-        // 左侧红色边框
-        borderWidth: '0 0 0 2px',
-        borderStyle: 'solid',
-        borderColor: 'rgba(255, 0, 0, 0.5)'
+        overviewRulerLane: vscode.OverviewRulerLane.Left
     });
 
     let timeout = undefined;
