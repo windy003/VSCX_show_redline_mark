@@ -1,0 +1,26 @@
+{
+  "name": "red-line-number",
+  "displayName": "Red Line Number Highlighter",
+  "description": "将光标所在行或选中代码行的行号显示为红色",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": []
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.60.0",
+    "@vscode/vsce": "^2.19.0"
+  }
+}
